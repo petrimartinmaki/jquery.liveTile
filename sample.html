@@ -1,0 +1,61 @@
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <style>
+            body {
+                background: white;
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+                color: white;
+            }
+
+            .live-tile {
+                width: 200px;
+                height: 200px;
+            }
+
+            .live-tile h4 {
+                margin: 5px 0px;
+                padding: 0;
+                font-size: 24px;
+                text-shadow: 0.05em 0.05em rgba(0, 0, 0, 0.4);
+                font-weight: lighter;
+            }
+
+            .live-tile div {
+                margin: 0;
+                padding: 5px;
+                background: rgb(0, 0, 0) transparent;
+                background: rgba(0, 0, 0, 0.4);
+                filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+                -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+            }
+
+            .live-tile p{
+                margin: 0;
+                font-weight: lighter;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="live-tile">
+            <img src="http://lorempixel.com/200/200/" />
+            <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh </p>
+            </div>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="jquery.liveTile.js"></script>
+
+        <script type="text/javascript">
+            $(function () {
+                $(".live-tile").liveTile();
+            });
+        </script>
+    </body>
+</html>
