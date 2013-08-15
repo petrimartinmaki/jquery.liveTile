@@ -1,6 +1,6 @@
-# jQuery.liveTile.js
+# Live tile plugin
 
-A simple jQuery plugin for live tiles like in Microsoft's Metro UI.
+A simple jQuery plugin for live tiles like in Microsoft's Metro UI. [Live demo](http://rawgithub.com/petrimartinmaki/jquery.liveTile/master/sample.html)
 
 ## Usage instructions
 
